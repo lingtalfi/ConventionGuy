@@ -22,7 +22,7 @@ absolute path                        |  base name  |   file name   |   file exte
 -------------------------- | ---------- | --------------- | ---------------------
 /path/to/file.txt           | file.txt      |   file       |   txt    
 /path/to/thefile.tar.gz           | thefile.tar.gz      |   thefile.tar       |   gz    
-/path/to/.htaccess           | .htaccess      |   .htaccess       |   <empty string>    
+/path/to/.htaccess           | .htaccess      |   .htaccess       |   \<empty string>    
 /path/to/.hidden.d           | .hidden.d      |   .hidden       |   d     
 
 
