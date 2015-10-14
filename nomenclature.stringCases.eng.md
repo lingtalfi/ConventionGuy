@@ -16,7 +16,7 @@ Different cases
 -----------------------
 
 
-For all cases, only ascii chars are considered.
+For all cases, only [a-Z0-9_] chars are considered.
 
 
 
