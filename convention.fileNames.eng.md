@@ -25,6 +25,9 @@ stamped with date:
     - withDatetime: <fileName> <.> <datetime> (<.> <ext>)?
     - date: 2015-10-14     
     - datetime: 2015-10-14__20-54-41
+    
+    
+The date is also called dateStamp, and the datetime is also called datetimeStamp.    
          
          
 Tags
