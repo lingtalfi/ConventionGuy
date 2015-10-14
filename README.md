@@ -5,7 +5,10 @@ Convention Guy
 
 
 Check out my conventions.
+Tools can use them as references.
 
 
 - [quotes escaping modes](https://github.com/lingtalfi/ConventionGuy/blob/master/convention.quotesEscapingModes.eng.md)
 - [string cases](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature.stringCases.eng.md)
+- [fileNames nomenclature](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature.fileName.eng.md)
+- [fileNames convention](https://github.com/lingtalfi/ConventionGuy/blob/master/convention.fileNames.eng.md)
