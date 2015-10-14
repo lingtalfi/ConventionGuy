@@ -15,6 +15,11 @@ This document can serve as a reference for tools that need to distinguish betwee
 Different cases
 -----------------------
 
+
+For all cases, only ascii chars are considered.
+
+
+
 - camelCase: starts with a lowercase letter (camelCase, simpleXML, localDb2Remote)
 - PascalCase: starts with an uppercase letter
 - snake_case: all lowercase letters, words separated with underscores
