@@ -8,6 +8,8 @@ Check out my conventions.
 Tools can use them as references.
 
 
+- [columns version naming system](https://github.com/lingtalfi/ConventionGuy/blob/master/convention.columns.vns.eng.md)
+- [din version naming system](https://github.com/lingtalfi/ConventionGuy/blob/master/convention.din.vns.eng.md)
 - [quotes escaping modes](https://github.com/lingtalfi/ConventionGuy/blob/master/convention.quotesEscapingModes.eng.md)
 - [string cases](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature.stringCases.eng.md)
 - [fileNames nomenclature](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature.fileName.eng.md)
