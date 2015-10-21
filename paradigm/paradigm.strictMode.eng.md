@@ -66,6 +66,9 @@ public function setStrictMode($strictMode)
 
 public function doo()
 {
+    //------------------------------------------------------------------------------/
+    // HANDLING STRICT MODE ERRORS
+    //------------------------------------------------------------------------------/
     $c = count($this->errors);
     if ($c) {
         if (1 === $this->strictMode) {
