@@ -39,3 +39,54 @@ This is a per call error handling strategy.
 
 
 
+Productivity tip
+-------------------
+
+If you know that you are going to use the strictMode paradigm,
+then you can configure your IDE with some snippet.
+I use the **strictt** keyword to expand the following snippet:
+
+
+```php
+
+private $strictMode;
+private $errors;
+
+public function __construct()
+{
+    $this->strictMode = 0;
+    $this->errors = [];
+}
+
+public function setStrictMode($strictMode)
+{
+    $this->strictMode = (int)$strictMode;
+    return $this;
+}
+
+public function doo()
+{
+    if (1 === $this->strictMode && count($this->errors) > 0) {
+        $m = "Oops, the following errors occurred: ";
+        $m .= implode(', ', $this->errors);
+        throw new \Exception($m);
+    }
+    return false;
+}
+
+public function getErrors()
+{
+    return $this->errors;
+}
+
+//------------------------------------------------------------------------------/
+// 
+//------------------------------------------------------------------------------/
+private function error($m)
+{
+    $this->errors[] = $m;
+}
+
+```
+
+Then of course, replace doo method by your main method.
