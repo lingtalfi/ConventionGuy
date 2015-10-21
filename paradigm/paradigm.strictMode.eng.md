@@ -66,12 +66,15 @@ public function setStrictMode($strictMode)
 
 public function doo()
 {
-    if (1 === $this->strictMode && count($this->errors) > 0) {
-        $m = "Oops, the following errors occurred: ";
-        $m .= implode(', ', $this->errors);
-        throw new \Exception($m);
+    $c = count($this->errors);
+    if ($c) {
+        if (1 === $this->strictMode) {
+            $m = "Oops, the following errors occurred: ";
+            $m .= implode(', ', $this->errors);
+            throw new \Exception($m);
+        }
+        return false;
     }
-    return false;
 }
 
 public function getErrors()
@@ -89,4 +92,5 @@ private function error($m)
 
 ```
 
-Then of course, replace doo method by your main method.
+Then of course, take the content of the doo method and put it near the end of 
+your main method.
