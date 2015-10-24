@@ -20,7 +20,8 @@ For all cases, only [a-Z0-9_] chars are considered.
 
 
 
-- camelCase: starts with a lowercase letter (camelCase, simpleXML, localDb2Remote)
+- camelCase: starts with a lowercase letter (camelCase, simpleXML, localDb2Remote) 
+- flexibleCamelCase: starts with a lowercase letter (camelCase, simpleXML, localDb2Remote), except if the first letter starts an acronym, in which case the first letter can be a uppercase letter (XMLElement, PHPBrain)  
 - PascalCase: starts with an uppercase letter
 - snake_case: all lowercase letters, words separated with underscores
 - CONSTANT_CASE: all uppercase letters, words separated with underscores
