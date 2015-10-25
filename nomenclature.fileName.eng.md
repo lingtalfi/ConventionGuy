@@ -24,6 +24,7 @@ absolute path                        |  base name  |   file name   |   file exte
 /path/to/thefile.tar.gz           | thefile.tar.gz      |   thefile.tar       |   gz    
 /path/to/.htaccess           | .htaccess      |   .htaccess       |   \<empty string>    
 /path/to/.hidden.d           | .hidden.d      |   .hidden       |   d     
+/path/to/.hidden.d.gz           | .hidden.d.gz      |   .hidden.d       |   gz     
 
 
 
