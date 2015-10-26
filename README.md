@@ -17,6 +17,7 @@ Conventions
 - [din version naming system](https://github.com/lingtalfi/ConventionGuy/blob/master/convention/convention.din.vns/convention.din.vns.1.0.0.eng.md)
 - [quotes escaping modes](https://github.com/lingtalfi/ConventionGuy/blob/master/convention.quotesEscapingModes.eng.md)
 - [fileNames convention](https://github.com/lingtalfi/ConventionGuy/blob/master/convention.fileNames.eng.md)
+- [wass0 convention](https://github.com/lingtalfi/ConventionGuy/blob/master/convention/wass0/convention.wass0.eng.md) (Web Assets Standard Structures 0)
 
 
 Nomenclatures
