@@ -47,6 +47,30 @@ then the tags are:
 In the special case of a hidden file like .htaccess, the component is:
 
 - htaccess
+    
+         
+DashTags
+-------------------
+         
+DashTags are all the dash separated components of a file, but the last component cannot contain a dot (unless
+it is also the first component and it starts with a dot -- hidden file).
+          
+          
+For instance, if the baseName of a file is:  notation-babyTree-1.0.0-eng.md, then the tags are:
+
+- notation
+- babyTree
+- 1.0.0
+
+And the extension if md.
+
+Now if the file's baseName is notation-babyTree-1.0.0-eng.tar.md, we have the same components, but
+the extension would be tar.md.
+
+
+In the special case of a hidden file like .htaccess, the component is:
+
+- .htaccess
 
           
     
