@@ -23,8 +23,9 @@ Conventions
 Nomenclatures
 ------------------
 
-- [string cases](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature.stringCases.eng.md)
 - [fileNames nomenclature](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature.fileName.eng.md)
+- [string cases](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature.stringCases.eng.md)
+- [uri nomenclature](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature/nomenclature.uri.eng.md)
 
 
 Paradigms
