@@ -28,6 +28,11 @@ Nomenclatures
 - [uri nomenclature](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature/nomenclature.uri.eng.md)
 
 
+Notations
+--------------
+- [Trimail notation](https://github.com/lingtalfi/ConventionGuy/blob/master/notation/notation.trimail-template.eng.md)
+
+
 Paradigms
 -------------
 
