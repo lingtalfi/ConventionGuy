@@ -27,14 +27,15 @@ Typically, the assets directory is the web server root directory itself (often w
 
 The structure of the assets directory looks like this:
 
+```
+- [assets]/
+----- js/
+----- css/
+----- libs/
+-------- $libName/
+------------ files of the library...
+```
 
-    - [assets]/
-    - js/
-    - css/
-    - libs/
-    ---- $libName/
-    -------- files of the library...
- 
 
 So basically, the js and css directories at the root of the assets directory are reserved for the application,
 and the libs directory contains automatically installed (assets) packages. 
