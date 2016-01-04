@@ -21,8 +21,8 @@ Using this convention (or any other) might help third party package installers t
 So what's the structure?
 -----------------------------
  
-In this convention, there is a special root directory called "assets" directory, and which contains all the assets
-of a given web application.
+In this convention, there is a special root directory referred to as "assets" in this document, and which contains all 
+the assets of a given web application.
 Typically, the assets directory is the web server root directory itself (often www).
 
 The structure of the assets directory looks like this:
@@ -37,7 +37,11 @@ The structure of the assets directory looks like this:
 ```
 
 
-So basically, the js and css directories at the root of the assets directory are reserved for the application,
-and the libs directory contains automatically installed (assets) packages. 
-A package is installed in a $libName directory.
-The libName cannot contain forward slash, and therefore forward slashes in the libName should be replaced with a dash.
+Js and css folders are reserved for the human developer.
+
+The libs folder is where all dependencies using this convention are installed.
+Import and export operations in the libs folder should be automated by third party tools (implementing this convention).
+
+The libs folder's direct children are called packages (or library).
+A package is a directory installed at the root of the libs folder, and its name is $libName.
+
