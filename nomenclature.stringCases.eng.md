@@ -29,6 +29,12 @@ A word contains only the [a-Z0-9_] chars.
 - CONSTANT_CASE: everything to upper case, then replace gaps between words with one underscore (_)
 
 
+### Snake case
+
+A string with everything to lower case.
+Accepted characters are underscores, the 26 letters of the alphabet (lower case or upper case), and the digits.
+An underscore cannot precede another underscore.
+
 
 
 
