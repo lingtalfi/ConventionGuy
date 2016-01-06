@@ -25,7 +25,7 @@ A word contains only the [a-Z0-9_] chars.
 - flexibleCamelCase: change the first letter of each word but the first to uppercase, then remove gaps between words  
 - PascalCase: everything to lower case, then change the first letter of each word to uppercase, then remove gaps between words
 - FlexiblePascalCase: change the first letter of each word to uppercase, then remove gaps between words 
-- snake_case: everything to lower case, then replace gaps between words with one underscore (_). Characters other than undercores, letters and numbers are stripped out.
+- snake_case: everything to lower case, then replace gaps between words with one underscore (_). Characters other than undercores, flat letters (non accentuated) and numbers are stripped out.
 - CONSTANT_CASE: everything to upper case, then replace gaps between words with one underscore (_)
 
 
