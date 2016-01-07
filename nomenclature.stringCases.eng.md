@@ -37,14 +37,16 @@ A wordChar is a char in the [a-Z0-9_] range.
 
 A string with everything to lower case.
 Accepted characters are underscores, the 26 letters of the alphabet lower case, and the digits.
-An underscore cannot precede another underscore.
+Characters outside of this range are stripped out.
+Consecutive underscores are replaced with one underscore.
 
 
 ### Dog case
 
 A string with everything to lower case.
-Accepted characters are underscores, the 26 letters of the alphabet lower case, the digits, and the dash
-An dash cannot precede another dash.
+Accepted characters are underscores, the 26 letters of the alphabet lower case, the digits, and the dash.
+Characters outside of this range are stripped out.
+Consecutive dashes are replaced with one dash.
 
 
 
