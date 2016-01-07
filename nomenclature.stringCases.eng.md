@@ -17,6 +17,7 @@ Different cases
 
 
 A word contains only the [a-Z0-9_] chars.
+A wordChar is a char in the [a-Z0-9_] range.
 
 
 
@@ -25,15 +26,25 @@ A word contains only the [a-Z0-9_] chars.
 - flexibleCamelCase: change the first letter of each word but the first to uppercase, then remove gaps between words  
 - PascalCase: everything to lower case, then change the first letter of each word to uppercase, then remove gaps between words
 - FlexiblePascalCase: change the first letter of each word to uppercase, then remove gaps between words 
-- snake_case: everything to lower case, then replace gaps between words with one underscore (_). Characters other than undercores, flat letters (non accentuated) and numbers are stripped out.
+- snake_case: everything to lower case, then replace gaps between words with one underscore (_). Characters other than undercores, flat letters (non accentuated) and numbers are stripped out
+- dash-case: replace consecutive blanks with one dash
+- hotDog-case: keep original case, and replace any non **wordChars** with a dash. No dash can precede another dash
+- dog-case: everything to lower case, and replace any non **wordChars** with a dash. No dash can precede another dash
 - CONSTANT_CASE: everything to upper case, then replace gaps between words with one underscore (_)
 
 
 ### Snake case
 
 A string with everything to lower case.
-Accepted characters are underscores, the 26 letters of the alphabet (lower case or upper case), and the digits.
+Accepted characters are underscores, the 26 letters of the alphabet lower case, and the digits.
 An underscore cannot precede another underscore.
+
+
+### Dog case
+
+A string with everything to lower case.
+Accepted characters are underscores, the 26 letters of the alphabet lower case, the digits, and the dash
+An dash cannot precede another dash.
 
 
 
@@ -52,6 +63,7 @@ flexibleCamelCase |  thisIsNotCorrect   |  simpleXML  |  localDb2Remote  | XMLEl
 PascalCase   |   ThisIsNotCorrect   | SimpleXml  |  LocalDb2Remote   |   XmlElement 
 FlexiblePascalCase   | ThisIsNotCorrect  |  SimpleXML  |  LocalDb2Remote  | XMLElement 
 snake_case  |   this_is_not_correct  |  simple_xml  |  local_db_2_remote  | xml_element
+dog-case  |   this-is-not-correct  |  simple-xml  |  local-db-2-remote  | xml-element
 CONSTANT_CASE  |  THIS_IS_NOT_CORRECT  |  SIMPLE_XML  |  LOCAL_DB_2_REMOTE  | XML_ELEMENT 
 
 
