@@ -37,7 +37,8 @@ A wordChar is a char in the [a-Z0-9_] range.
 ### Snake case
 
 A string with everything to lower case.
-Accepted characters are underscores, the 26 letters of the alphabet lower case, and the digits.
+Blanks chars are replaced with underscores.
+Then, accepted characters are underscores, the 26 letters of the alphabet lower case, and the digits.
 Characters outside of this range are stripped out.
 Consecutive underscores are replaced with one underscore.
 
@@ -45,7 +46,8 @@ Consecutive underscores are replaced with one underscore.
 ### Dog case
 
 A string with everything to lower case.
-Accepted characters are underscores, the 26 letters of the alphabet lower case, the digits, and the dash.
+Blanks chars are replaced with dashes.
+Then, accepted characters are underscores, the 26 letters of the alphabet lower case, the digits, and the dash.
 Characters outside of this range are stripped out.
 Consecutive dashes are replaced with one dash.
 
@@ -53,7 +55,8 @@ Consecutive dashes are replaced with one dash.
 ### Flea case
 
 A string with everything to lower case.
-Accepted characters are underscores, the 26 letters of the alphabet lower case, the digits, the dash, and the dot.
+Blanks chars are replaced with dashes.
+Then, accepted characters are underscores, the 26 letters of the alphabet lower case, the digits, the dash, and the dot.
 Characters outside of this range are stripped out.
 Consecutive dashes are replaced with one dash.
 Consecutive underscores are replaced with one underscore.
