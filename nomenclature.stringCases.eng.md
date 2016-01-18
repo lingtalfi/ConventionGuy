@@ -27,10 +27,10 @@ A wordChar is a char in the [a-Z0-9_] range.
 - dash-case: replace consecutive blanks with one dash
 - PascalCase: everything to lower case, then change the first letter of each word to uppercase, then remove gaps between words
 - FlexiblePascalCase: change the first letter of each word to uppercase, then remove gaps between words 
-- snake_case: everything to lower case, then replace gaps between words with one underscore (_). Characters other than undercores, flat letters (non accentuated) and numbers are stripped out
-- dog-case: everything to lower case, and replace any non **wordChars** with a dash. No dash can precede another dash
-- flea case: everything to lower case, and remove any non accepted chars. Accepted chars are wordChars, the dash and the period. There cannot be more two consecutive dashes, two consecutive underscores, or two consecutive dots.
-- hotDog-case: keep original case, and replace any non **wordChars** with a dash. No dash can precede another dash
+- snake_case: everything to lower case, convert accentuated letters to non accentuated, then replace gaps between words with one underscore (_). Characters other than undercores, flat letters (non accentuated) and numbers are stripped out
+- dog-case: everything to lower case, convert accentuated letters to non accentuated, and replace any non **wordChars** with a dash. No dash can precede another dash
+- flea case: everything to lower case, convert accentuated letters to non accentuated, and remove any non accepted chars. Accepted chars are wordChars, the dash and the period. There cannot be more two consecutive dashes, two consecutive underscores, or two consecutive dots.
+- hotDog-case: keep original case, convert accentuated letters to non accentuated, and replace any non **wordChars** with a dash. No dash can precede another dash
 - CONSTANT_CASE: everything to upper case, then replace gaps between words with one underscore (_)
 
 
@@ -38,6 +38,7 @@ A wordChar is a char in the [a-Z0-9_] range.
 
 A string with everything to lower case.
 Blanks chars are replaced with underscores.
+Accentuated letters are replaced with their non accentuated equivalent.
 Then, accepted characters are underscores, the 26 letters of the alphabet lower case, and the digits.
 Characters outside of this range are stripped out.
 Consecutive underscores are replaced with one underscore.
@@ -47,6 +48,7 @@ Consecutive underscores are replaced with one underscore.
 
 A string with everything to lower case.
 Blanks chars are replaced with dashes.
+Accentuated letters are replaced with their non accentuated equivalent.
 Then, accepted characters are underscores, the 26 letters of the alphabet lower case, the digits, and the dash.
 Characters outside of this range are stripped out.
 Consecutive dashes are replaced with one dash.
@@ -56,6 +58,7 @@ Consecutive dashes are replaced with one dash.
 
 A string with everything to lower case.
 Blanks chars are replaced with dashes.
+Accentuated letters are replaced with their non accentuated equivalent.
 Then, accepted characters are underscores, the 26 letters of the alphabet lower case, the digits, the dash, and the dot.
 Characters outside of this range are stripped out.
 Consecutive dashes are replaced with one dash.
