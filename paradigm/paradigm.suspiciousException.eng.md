@@ -33,6 +33,14 @@ So this paradigm is a workflow that does just that.
 
 
 
+
+Note: 
+pushing the concept further, you can easily create multiple levels of Exception, with a different handling 
+for every type of exception.
+
+
+
+
                 
                 
 Related
