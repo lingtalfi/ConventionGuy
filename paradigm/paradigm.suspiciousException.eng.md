@@ -34,6 +34,12 @@ So this paradigm is a workflow that does just that.
 
 
                 
+                
+Related
+-------------
+
+- [SuspiciousException](https://github.com/lingtalfi/SuspiciousException), a php implementation of the SuspiciousExceptionInterface.
+
 
 
 
