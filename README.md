@@ -37,3 +37,4 @@ Paradigms
 -------------
 
 - [strictMode paradigm](https://github.com/lingtalfi/ConventionGuy/blob/master/paradigm/paradigm.strictMode.eng.md)
+- [suspiciousException paradigm](https://github.com/lingtalfi/ConventionGuy/blob/master/paradigm/paradigm.suspiciousException.eng.md)

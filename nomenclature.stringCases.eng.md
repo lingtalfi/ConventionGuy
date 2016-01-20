@@ -54,6 +54,9 @@ Characters outside of this range are stripped out.
 Consecutive dashes are replaced with one dash.
 
 
+
+
+
 ### Flea case
 
 A string with everything to lower case.
