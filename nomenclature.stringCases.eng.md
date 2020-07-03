@@ -98,13 +98,13 @@ tai(tai)-PEI+MAURICE | taiTaiPeiMaurice
 
 flexibleCamelCase
 -------------
-2015-10-14
+2015-10-14 -> 2020-07-03
 
 
 
 Like [camelCase](#camelcase), but keeps the existing case (uppercase or lowercase), except for:
-- the first of the first word is always lowercase
-- the first of the non-first words is always uppercase
+- the first letter of the first word is always lowercase
+- the first letter of the non-first words is always uppercase
 
 
 input            |       output
